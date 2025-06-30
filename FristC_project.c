@@ -47,7 +47,7 @@ int main (int argc, char*argv[])
         cipher[len] = '\0';
         printf("Ciphertext: %s\n", cipher);
     }  
-    printf("This is the end of Program....\n");
+    printf("This is the end of Program.....\n");
 }
 
 bool is_digit(char*str)
