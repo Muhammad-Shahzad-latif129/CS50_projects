@@ -10,5 +10,6 @@ int main(void)
     {
         printf("Your name is: %s\n", s);
     }
+    printf("This is the end of Program.....\n");
     return 0;
 }
