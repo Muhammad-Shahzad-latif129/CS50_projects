@@ -10,4 +10,5 @@ int main(void)
     {
         printf("Your name is: %s\n", s);
     }
+    return 0;
 }
