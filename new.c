@@ -8,7 +8,7 @@ int main(void)
     s[strcspn(s, "\n")] = '\0';
     for (int i = 0; i < 5; i++)
     {
-        printf("Your name is: %s\n", s);
+        printf("Your name is:: %s\n", s);
     }
     printf("This is the end of Program.....\n");
     return 0;
