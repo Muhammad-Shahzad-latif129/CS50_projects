@@ -20,7 +20,7 @@ int main(void)
             Printf("Please enter the integer in the range 1 to 8.\n");
             continue;
         }   
-        break;
+        break; 
     }       
 
     pyramid(n);
