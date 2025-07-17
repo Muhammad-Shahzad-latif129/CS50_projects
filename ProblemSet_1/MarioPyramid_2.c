@@ -4,12 +4,23 @@ void pyramid(int height);
 int main(void)
 {
     int n;
-    int b = 1;
-    do
+    char c;
+    while(1)
     {
         printf("Height: ");
-        scanf("%i", &n);
-    } while (n < 1 || n>8);
+        if(scanf("%i%c", &n, &c) != 2 || c!= '\n')
+        {
+            printf("Invalid Input. Please enter the valid input.\n");
+            //Buffer Clear
+            while(getchar() != '\n');
+            continue;
+        }
+        if(n < 1 || n > 8)
+        {
+            Printf("Please enter the integer in the range 1 to 8.\n");
+            continue;
+        }   
+    }       
 
     pyramid(n);
 }
