@@ -56,47 +56,21 @@ int main(void)
 int calculate_quarters(int cents)
 {
     //Calculate how many quarters you should give customer
-    int quarters = 0;
-    while (cents >= 25)
-    {
-        quarters++;
-        cents = cents - 25;
-    }
-    return quarters;
+    return cents / 25;
 }
 
 int calculate_dimes(int cents)
 {
     //Calculate how many dimes you should give the customer
-    int dimes = 0;
-    while (cents >= 10)
-    {
-        dimes++;
-        cents = cents - 10;
-    }
-    return dimes;
+    return cents / 10;
 }
 int calculate_nickles(int cents)
 {
     //Calculate how many nickles you should give the customer
-
-    int nickles = 0;
-    while (cents >= 5)
-    {
-        nickles++;
-        cents = cents - 5;
-    }
-    return nickles;
+    return cents / 5;
 }
 int calculate_pennies(int cents)
 {
     //Calculate how many pennies you should give the customer
-
-    int pennies = 0;
-    while (cents >= 1)
-    {
-        pennies++;
-        cents = cents - 1;
-    }
-    return pennies;
+    return cents / 1;
 }
