@@ -25,5 +25,5 @@ Compile using make or: gcc -o File_name File_name
 ./File_name
 
 💡 Notes
-All problems were completed as part of the CS50x Introduction to Computer Science course by Harvard University.
+All problems were completed as part of the CS50 Introduction to Computer Science course by Harvard University.
 Clean and readable C code, with input validation and error handling.
