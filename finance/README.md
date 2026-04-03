@@ -3,18 +3,29 @@ A full-stack stock trading web application built as part of Harvard's CS50x — 
 
 🚀 Features
 ·	🔐 User Authentication — Register and log in securely with hashed passwords
+
 ·	📊 Real-Time Stock Quotes — Look up live stock prices via the IEX Cloud API
+
 ·	💰 Buy & Sell Shares — Simulate purchasing and selling stocks with a starting cash balance of $10,000
+
 ·	🗂️ Portfolio Overview — View all currently held stocks, shares, current prices, and total value
+
 ·	📜 Transaction History — Full history of every buy and sell transaction
+
 ·	💵 Cash Balance Tracking — Always know how much buying power you have left
+
 
 🛠️ Tech Stack
 Layer	Technology
+
 Backend	Python, Flask
+
 Database	SQLite (via CS50 Library)
+
 Frontend	HTML, CSS, Bootstrap 5, Jinja2
-API	CS50 Finance API
+
+API	    CS50 Finance API
+
 Auth	Werkzeug password hashing
 
 
@@ -60,32 +71,44 @@ Prerequisites
 ·	Python 3.x
 ·	pip
 Steps
-1.	
-2.	Clone the repository
-3.	git clone https://github.com/Muhammad-Shahzad-latif129/finance.git
+1.	Clone the repository
+
+2.	git clone https://github.com/Muhammad-Shahzad-latif129/finance.git
+
 cd finance
 
-4.	
-5.	Install dependencies
-6.	pip install -r requirements.txt
+	
+3.	Install dependencies
+   
+4.	pip install -r requirements.txt
 
-7.	This app uses CS50's built-in Finance API(https://finance.cs50.io) which requires no API key. It works ou of the box!
-8.	Run the application
-9.	flask run
+5.	This app uses CS50's built-in Finance API(https://finance.cs50.io) which requires no API key. It works ou of the box!
 
-10.	
-11.	Open in browser
-12.	http://127.0.0.1:5000
+6.	Run the application
+
+7.	flask run
+
+	
+8.	Open in browser
+
+9.	http://127.0.0.1:5000
 
 
 🖥️ Usage
 Action	How To
+
 Register	Go to /register, create a username & password
+
 Log In	Go to /login with your credentials
+
 Get a Quote	Navigate to Quote, enter a stock symbol (e.g. AAPL)
+
 Buy Stock	Navigate to Buy, enter symbol and number of shares
+
 Sell Stock	Navigate to Sell, choose a stock you own and quantity
+
 View Portfolio	Homepage shows all holdings + current values
+
 View History	Navigate to History to see all past transactions
 
 
@@ -123,10 +146,13 @@ transactions
 
 📌 Notes
 ·	This project was built for educational purposes as part of CS50x.
+
 ·	No real money is involved — all trades are simulated.
+
 ·	Default starting balance is $10,000 USD.
 
 🏫 Academic Honesty
+
 If you are a current CS50 student, please review the CS50 Academic Honesty Policy before viewing this code. This repository is shared for portfolio purposes only.
 
 👤 Author
