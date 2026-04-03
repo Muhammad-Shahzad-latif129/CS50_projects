@@ -20,22 +20,39 @@ Auth	Werkzeug password hashing
 
 📁 Project Structure
 finance/
+
 ├── app.py              # Main Flask application & all routes
+
 ├── helpers.py          # Helper functions (login_required, lookup, usd)
+
 ├── finance.db          # SQLite database
+
 ├── requirements.txt    # Python dependencies
+
 ├── static/
+
 │   └── styles.css      # Custom CSS styles
+
 └── templates/
+
     ├── layout.html     # Base template
+    
     ├── index.html      # Portfolio homepage
+    
     ├── login.html      # Login page
+    
     ├── register.html   # Registration page
+    
     ├── quote.html      # Stock quote form
+    
     ├── quoted.html     # Stock quote result
+    
     ├── buy.html        # Buy stocks form
+    
     ├── sell.html       # Sell stocks form
+    
     └── history.html    # Transaction history
+    
 
 
 ⚙️ Setup & Installation
