@@ -15,18 +15,19 @@ A full-stack stock trading web application built as part of Harvard's CS50x — 
 ·	💵 Cash Balance Tracking — Always know how much buying power you have left
 
 
-🛠️ Tech Stack
-Layer	Technology
+🛠️ Tech------Stack
 
-Backend	Python, Flask
+Layer--------Technology
 
-Database	SQLite (via CS50 Library)
+Backend------Python, Flask
 
-Frontend	HTML, CSS, Bootstrap 5, Jinja2
+Database-----SQLite (via CS50 Library)
 
-API	    CS50 Finance API
+Frontend-----HTML, CSS, Bootstrap 5, Jinja2
 
-Auth	Werkzeug password hashing
+API----------CS50 Finance API
+
+Auth---------Werkzeug password hashing
 
 
 📁 Project Structure
@@ -75,7 +76,7 @@ Steps
 
 2.	git clone https://github.com/Muhammad-Shahzad-latif129/finance.git
 
-cd finance
+    cd finance
 
 	
 3.	Install dependencies
@@ -95,21 +96,21 @@ cd finance
 
 
 🖥️ Usage
-Action	How To
+Action-----------How To
 
-Register	Go to /register, create a username & password
+Register---------Go to /register, create a username & password
 
-Log In	Go to /login with your credentials
+Log In-----------Go to /login with your credentials
 
 Get a Quote	Navigate to Quote, enter a stock symbol (e.g. AAPL)
 
-Buy Stock	Navigate to Buy, enter symbol and number of shares
+Buy Stock--------Navigate to Buy, enter symbol and number of shares
 
-Sell Stock	Navigate to Sell, choose a stock you own and quantity
+Sell Stock-------Navigate to Sell, choose a stock you own and quantity
 
-View Portfolio	Homepage shows all holdings + current values
+View Portfolio---Homepage shows all holdings + current values
 
-View History	Navigate to History to see all past transactions
+View History-----Navigate to History to see all past transactions
 
 
 🗃️ Database Schema
@@ -156,7 +157,8 @@ transactions
 If you are a current CS50 student, please review the CS50 Academic Honesty Policy before viewing this code. This repository is shared for portfolio purposes only.
 
 👤 Author
-Your Name
+MUhammad Shahzad Latif
+
 ·	GitHub: @Muhammad-Shahzad-latif129
 ·	CS50x — Problem Set 9: Finance
 
